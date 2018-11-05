@@ -1,0 +1,30 @@
+{
+  "name": "create-ng1-wrapper",
+  "version": "1.0.0",
+  "description": "Helper function for using Angular Element in AngularJS",
+  "main": "create-ng1-wrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErinCoughlan/create-ng1-wrapper.git"
+  },
+  "author": "Erin Coughlan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ErinCoughlan/create-ng1-wrapper/issues"
+  },
+  "homepage": "https://github.com/ErinCoughlan/create-ng1-wrapper#readme",
+  "devDependencies": {
+    "@angular/core": "^7.0.2",
+    "@angular/elements": "^7.0.2",
+    "@types/angular": "^1.6.51",
+    "rxjs": "^6.3.3",
+    "typescript": "^3.1.6"
+  },
+  "peerDependencies": {
+    "@angular/core": "^7.0.2",
+    "@angular/elements": "^7.0.2"
+  }
+}

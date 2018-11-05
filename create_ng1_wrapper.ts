@@ -74,7 +74,7 @@ export function createNg1Wrapper(
       $element.css('display', 'inline-block');
 
       this.customElement =
-          $element[0].querySelector<HTMLElement>(customElementSelector);
+          ($element as any as HTMLElement[])[0].querySelector<HTMLElement>(customElementSelector)!;
       if (!this.customElement) {
         throw new Error(`No custom element (${customElementSelector}) found.  ¯\_(ツ)_/¯`);
       }
