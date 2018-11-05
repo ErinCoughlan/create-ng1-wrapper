@@ -1,8 +1,8 @@
 {
   "name": "create-ng1-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper function for using Angular Element in AngularJS",
-  "main": "create-ng1-wrapper.js",
+  "main": "create_ng1_wrapper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
