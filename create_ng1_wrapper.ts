@@ -64,7 +64,6 @@ export function createNg1Wrapper(
     /** Map to keep track of added eventListeners for cleanup. */
     private readonly eventListeners = new Map<string, EventListener>();
 
-    /** @ngInject */
     constructor(
         $element: JQuery,
         private readonly $rootScope: angular.IRootScopeService,
@@ -120,6 +119,7 @@ export function createNg1Wrapper(
       };
     }
   }
+  Ng1WrapperController.$inject= ['$element', '$rootScope'];
 
   // Add getters and setters to the prototype for each property input.
   // This sets the property on the custom element whenever the AngularJS
