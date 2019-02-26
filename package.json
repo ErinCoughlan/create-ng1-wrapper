@@ -1,6 +1,6 @@
 {
   "name": "create-ng1-wrapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helper function for using Angular Element in AngularJS",
   "main": "create_ng1_wrapper.js",
   "scripts": {
