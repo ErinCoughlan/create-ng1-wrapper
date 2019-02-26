@@ -13,6 +13,12 @@ element in a AngularJS component.
 1. Add the generated AngularJS component to an AngularJS module and use as
 if it were AngularJS.
 
+# Demo Application
+A simple demo can be found here:
+https://create-ng1-wrapper-app.firebaseapp.com/
+
+Credit: @siddharthpal
+
 ## Source Code Headers
 
 Every file containing source code must include copyright and license
