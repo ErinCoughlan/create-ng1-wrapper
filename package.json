@@ -25,6 +25,7 @@
   },
   "peerDependencies": {
     "@angular/core": "^7.0.2",
-    "@angular/elements": "^7.0.2"
+    "@angular/elements": "^7.0.2",
+    "@types/angular": "^1.6.51"
   }
 }
